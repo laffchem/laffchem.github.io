@@ -1,0 +1,105 @@
+/* Header & Headings */
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #051422;
+  padding-bottom: 4rem;
+  /* align-items: center; */
+}
+.heading-primary {
+  font-size: 12rem;
+  letter-spacing: 0.75px;
+  padding: 10rem 0 6rem 0;
+  color: #ced4da;
+}
+
+.heading-secondary {
+  font-size: 6rem;
+  letter-spacing: 0.75px;
+  padding: 10rem 0 4rem 0;
+  color: #838f99;
+  display: block;
+  border-bottom: #838f99 solid 2px;
+}
+
+.programmer-heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  font-weight: 400;
+  padding-bottom: 6rem;
+  color: #ced4da;
+}
+
+.underlined {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.logo-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 25%;
+  border: solid 2px #ced4da;
+  box-shadow: 0 0 10px 3px rgba(206, 212, 218, 0.25);
+  border-radius: 50%;
+}
+
+/* Navbar */
+
+.navbar {
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem 0 4rem 0;
+  background-color: #ced4da;
+  font-weight: 500;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #0c3256;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #e8f0f7;
+  transition: all 0.2s;
+}
+
+/* Description */
+.section-description {
+  background-color: #051422;
+  padding-bottom: 4rem;
+}
+
+.description-container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.description {
+  font-size: 2rem;
+  color: #ced4da;
+  line-height: 1.5;
+}
+
+.description:first-child {
+  padding-bottom: 2rem;
+}
+
+/* Web Projects Section */
+.section-web {
+  background-color: #051422;
+  padding-bottom: 4rem;
+}
+
+.web-projects {
+  justify-content: center;
+}
