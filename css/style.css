@@ -76,7 +76,7 @@
 /* Description */
 .section-description {
   background-color: #051422;
-  padding-bottom: 4rem;
+  padding-bottom: 9.6rem;
 }
 
 .description-container {
@@ -94,9 +94,9 @@
 }
 
 /* Web Projects Section */
-.section-web {
+.section-projects {
   background-color: #051422;
-  padding-bottom: 4rem;
+  padding-bottom: 9.6rem;
 }
 
 .line {
@@ -106,14 +106,44 @@
   margin: 0 auto;
 }
 
-.web-projects {
+.descriptions {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 6rem;
+  color: #1098ad;
+}
+
+.projects {
   padding-top: 9.6rem;
   justify-content: center;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 .web-img {
-  height: 24rem;
-  width: 36rem;
+  height: 20rem;
+  width: 32rem;
   border-radius: 4rem;
+  transition: all 0.3s;
+}
+
+.web-img:hover,
+.web-img:active {
+  filter: brightness(0.8);
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+/* Python Section */
+.gif-static {
+  position: absolute;
+}
+
+.gif-static:hover {
+  display: none;
+}
+
+.gif-active:hover {
+  filter: brightness(0.8);
+  transform: scale(1.2);
+  transition: all 0.3s;
 }

@@ -8,10 +8,11 @@
 
 /* 
 Colors:
-#071e33 -Primary
+#051422 -Primary
 #0c3256 - Shades
 #838f99 - Tint
 #ced4da - Secondary
+#1098ad - section-descriptions
 */
 
 /* Universal Reset */
@@ -25,6 +26,7 @@ Colors:
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
