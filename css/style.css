@@ -76,7 +76,7 @@
 /* Description */
 .section-description {
   background-color: #051422;
-  padding-bottom: 9.6rem;
+  padding-bottom: 12.8rem;
 }
 
 .description-container {
@@ -96,7 +96,7 @@
 /* Web Projects Section */
 .section-projects {
   background-color: #051422;
-  padding-bottom: 9.6rem;
+  padding-bottom: 12.8rem;
 }
 
 .line {
@@ -111,6 +111,14 @@
   font-size: 1.4rem;
   padding-top: 6rem;
   color: #1098ad;
+}
+
+.project-names {
+  display: flex;
+  font-size: 1.6rem;
+  color: #838f99;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects {

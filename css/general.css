@@ -53,12 +53,17 @@ body {
   padding: 0 3.2rem;
 }
 
+.text-container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
 /* Grid Settings */
 
 .grid {
   display: grid;
   row-gap: 9.6rem;
-  column-gap: 6.4rem;
+  column-gap: 6rem;
 }
 
 .grid--2-cols {
