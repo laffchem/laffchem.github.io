@@ -41,7 +41,6 @@
 }
 
 .logo {
-  width: 20vw;
   border: solid 2px #ced4da;
   box-shadow: 0 0 10px 3px rgba(206, 212, 218, 0.25);
   border-radius: 50%;
@@ -360,6 +359,10 @@
     text-align: center;
   }
 
+  .logo {
+    width: 42%;
+  }
+
   .navbar {
     padding: 2rem;
     background-color: #ced4da;
@@ -373,6 +376,10 @@
   .navbar {
     width: 100vw;
     position: fixed;
+  }
+
+  .logo {
+    width: 25%;
   }
 
   .resume-container {
