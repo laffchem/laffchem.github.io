@@ -14,20 +14,22 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Sacramento&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
     <title>Portfolio ~ John Laffey</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <nav class="navbar flex flex--center">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#web">Web</a>
-        <a class="nav-link" href="#python">Python</a>
-        <a class="nav-link" href="#about">About</a>
-        <!-- This section will be added at later time, have paper resume -->
-        <!-- <a class="nav-link" href="/resume.html">Resume</a> -->
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a class="nav-link" href="/index.html">Home</a>
+          <a class="nav-link" href="/index.html#web">Web</a>
+          <a class="nav-link" href="/index.html#python">Python</a>
+          <a class="nav-link" href="/index.html#skills">Skills</a>
+          <a class="nav-link" href="/index.html#about">About</a>
+          <a class="nav-link" href="/resume.html">Resume</a>
+        </div>
       </nav>
       <div class="container">
         <div class="logo-flex">
@@ -60,38 +62,59 @@
         <div class="flex flex--center flex-jcc flex-col">
           <h2 class="heading-secondary text-center">Web</h2>
           <div class="line"></div>
-          <p class="descriptions">
-            These are web projects I have worked on for fun and in classes.
-          </p>
+          <div class="paragraph-container">
+            <p class="descriptions">
+              These are web projects I have worked on for fun and in classes.
+              They live on github but can be downloaded and run locally.
+            </p>
+          </div>
         </div>
-        <div class="projects grid grid--3-cols grid--center-v">
-          <a
-            class="web-link"
-            href="https://github.com/laffchem/coffee_flask_server"
-          >
-            <img
-              class="web-img"
-              src="img/coffee.png"
-              alt="Coffee Website Project"
-            />
-          </a>
-          <a class="web-link" href="https://github.com/laffchem/hour_calc">
-            <img
-              class="web-img"
-              src="img/hour_calc.png"
-              alt="Hour Calc website prototype."
-            />
-          </a>
-          <a class="web-link" href="https://github.com/laffchem/Course-Project">
-            <img
-              class="web-img"
-              src="img/course_project.png"
-              alt="Fake Meal Prep Website for Class"
-            />
-          </a>
-          <p class="project-names">Flask Coffee Project</p>
-          <p class="project-names">hour_calc!</p>
-          <p class="project-names">Fake Meal Prep Project</p>
+        <div class="projects flex">
+          <div class="flex flex-col flex-col-gap">
+            <a
+              class="web-link"
+              href="https://github.com/laffchem/coffee_flask_server"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="web-img"
+                src="img/coffee.png"
+                alt="Coffee Website Project"
+              />
+            </a>
+            <p class="project-names">Flask Coffee Project</p>
+          </div>
+          <div class="flex flex-col flex-col-gap">
+            <a
+              class="web-link"
+              href="https://github.com/laffchem/hour_calc"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="web-img"
+                src="img/hour_calc.png"
+                alt="Hour Calc website prototype."
+              />
+            </a>
+            <p class="project-names">hour_calc!</p>
+          </div>
+          <div class="flex flex-col flex-col-gap">
+            <a
+              class="web-link"
+              href="https://github.com/laffchem/Course-Project"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="web-img"
+                src="img/course_project.png"
+                alt="Fake Meal Prep Website for Class"
+              />
+            </a>
+            <p class="project-names">Fake Meal Prep Project</p>
+          </div>
         </div>
       </div>
     </section>
@@ -101,46 +124,120 @@
         <div class="flex flex--center flex-jcc flex-col">
           <h2 class="heading-secondary text-center">Python</h2>
           <div class="line"></div>
-          <p class="descriptions">
-            These are python projects I have worked on for fun and in classes.
-          </p>
+          <div class="paragraph-container">
+            <p class="descriptions">
+              These are python projects I have worked on for fun and in classes.
+              They live on github but can be downloaded and run locally.
+            </p>
+          </div>
         </div>
-        <div class="projects grid grid--3-cols grid--center-v">
-          <a class="web-link gif" href="https://github.com/laffchem/dad_jokes">
-            <img
-              class="web-img gif-static"
-              src="img/dad_jokes.png"
-              alt="Dad Jokes Project"
-            />
-            <img
-              class="web-img gif-active"
-              src="img/dad_jokes.gif"
-              alt="Dad Jokes Project"
-            />
-          </a>
-          <a class="web-link" href="https://github.com/laffchem/pycurve_gui">
-            <img
-              class="web-img"
-              src="img/pycurve.png"
-              alt="Flask App to curve my test grades."
-            />
-          </a>
-          <a
-            class="web-link"
-            href="https://github.com/laffchem/internet_speed_complaints/"
-          >
-            <img
-              class="web-img"
-              src="img/complain.jpg"
-              alt="Selenium project I made to complain to xfinity."
-            />
-          </a>
-          <p class="project-names">Automated Dad Jokes</p>
-          <p class="project-names">PyCurve</p>
-          <p class="project-names">Internet Speed Complainer</p>
+        <div class="projects flex">
+          <div class="flex flex-col flex-col-gap">
+            <a
+              class="web-link gif"
+              href="https://github.com/laffchem/dad_jokes"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="web-img gif-static"
+                src="img/dad_jokes.png"
+                alt="Dad Jokes Project"
+              />
+              <img
+                class="web-img gif-active"
+                src="img/dad_jokes.gif"
+                alt="Dad Jokes Project"
+              />
+            </a>
+            <p class="project-names">Automated Dad Jokes</p>
+          </div>
+          <div class="flex flex-col flex-col-gap">
+            <a
+              class="web-link"
+              href="https://github.com/laffchem/pycurve_gui"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="web-img"
+                src="img/pycurve.png"
+                alt="Flask App to curve my test grades."
+              />
+            </a>
+            <p class="project-names">PyCurve</p>
+          </div>
+          <div class="flex flex-col flex-col-gap">
+            <a
+              class="web-link"
+              href="https://github.com/laffchem/internet_speed_complaints/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="web-img"
+                src="img/complain.jpg"
+                alt="Selenium project I made to complain to xfinity."
+              />
+            </a>
+            <p class="project-names">Internet Speed Complainer</p>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Skills Section -->
+    <section class="section-skills" id="skills">
+      <div class="container">
+        <div class="flex flex-jcc flex-col">
+          <h2 class="heading-secondary text-center">Skills</h2>
+          <div class="line"></div>
+          <div class="paragraph-container">
+            <p class="descriptions">
+              This is a collection of applicable languages, IDEs, frameworks and
+              operating systems I am comfortable with.
+            </p>
+          </div>
+          <div class="skills-container flex">
+            <ul>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/vscode.png" /></span>
+                VSCode
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/python.png" /></span>
+                Python
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/html5.png" /></span>
+                HTML5
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/css3.png" /></span>
+                CSS3
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/node-js.png" /></span>
+                Javascript / Node.js
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/flask.png" /></span>
+                Flask
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/django.png" /></span>
+                Django
+              </li>
+              <li class="skills-item">
+                <span><img class="skills-img" src="img/linux.png" /></span>
+                Linux
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- About Section -->
     <section class="section-projects" id="about">
       <div class="container">
@@ -165,24 +262,102 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="flex email-box">
-          <a class="email" href="mailto:john.laffey@pm.me">john.laffey@pm.me</a>
-        </div>
-        <div class="flex self-prom">
-          <a href="https://github.com/laffchem"
-            ><i class="fa-brands fa-github icons"></i
-          ></a>
-          <a href="https://twitter.com/laffchem"
-            ><i class="fa-brands fa-twitter icons"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/john-laffey/"
-            ><i class="fa-brands fa-linkedin-in icons"></i
-          ></a>
-        </div>
         <div class="flex up-box">
           <a class="home-arrow" href="#"
             ><i class="fa-solid fa-arrow-up icons"></i
           ></a>
+        </div>
+        <div class="flex email-box">
+          <a
+            class="email"
+            href="mailto:john.laffey@pm.me"
+            target="_blank"
+            rel="noopener"
+            >john.laffey@pm.me</a
+          >
+        </div>
+        <div class="flex self-prom">
+          <a href="https://github.com/laffchem" target="_blank" rel="noopener"
+            ><i class="fa-brands fa-github icons"></i
+          ></a>
+          <a href="https://twitter.com/laffchem" target="_blank" rel="noopener"
+            ><i class="fa-brands fa-twitter icons"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/john-laffey/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fa-brands fa-linkedin-in icons"></i
+          ></a>
+        </div>
+        <div class="flex copyright-box">
+          <h3 class="copyright">Copyright 2022</h3>
+        </div>
+        <div class="flex flex-col attribution-overall">
+          <h3 class="attribution-header">Image Attributions:</h3>
+
+          <div class="flex attributions">
+            <div class="attribute-box flex flex-col">
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/icons/node-js"
+                target="_blank"
+                >Node Js Icon</a
+              >
+              by
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/contributors/icon-mafia"
+                target="_blank"
+                >Icon Mafia</a
+              >
+            </div>
+            <div class="attribute-box flex flex-col">
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/icons/flask"
+                target="_blank"
+                >Flask Logo Icon</a
+              >
+              by
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/contributors/icon-mafia"
+                target="_blank"
+                >Icon Mafia</a
+              >
+            </div>
+            <div class="attribute-box flex flex-col">
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/icons/css3"
+                target="_blank"
+                >Css3 Icon</a
+              >
+              by
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/contributors/icon-mafia"
+                target="_blank"
+                >Icon Mafia</a
+              >
+            </div>
+            <div class="attribute-box flex flex-col">
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/icons/linux"
+                target="_blank"
+                >Linux Icon</a
+              >
+              by
+              <a
+                class="attribute-link"
+                href="https://iconscout.com/contributors/unicons"
+                target="_blank"
+                >Unicons Font</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </footer>

@@ -45,6 +45,12 @@ body {
   text-align: left;
 }
 
+/* Text Styles */
+.font-bold {
+  font-weight: bold;
+  color: #6d849a;
+}
+
 /* Default Container */
 
 .container {
@@ -77,8 +83,13 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-phone {
+  grid-template-columns: auto;
 }
 
 .grid--center-v {
@@ -101,4 +112,17 @@ body {
 
 .flex-jcc {
   justify-content: center;
+}
+
+.flex-col-gap {
+  gap: 3rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
