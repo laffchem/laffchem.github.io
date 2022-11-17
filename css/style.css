@@ -145,6 +145,11 @@
   gap: 6rem;
 }
 
+.web-item {
+  overflow: hidden;
+  border-radius: 4rem;
+}
+
 .web-img {
   height: 20rem;
   width: 32rem;
@@ -155,6 +160,7 @@
 .web-img:hover,
 .web-img:active {
   filter: brightness(0.8);
+  overflow: hidden;
   transform: scale(1.2);
   transition: all 0.3s;
 }
@@ -170,6 +176,7 @@
 
 .gif-active:hover {
   filter: brightness(0.8);
+  overflow: hidden;
   transform: scale(1.2);
   transition: all 0.3s;
 }
