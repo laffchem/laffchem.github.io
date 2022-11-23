@@ -1,0 +1,61 @@
+/* Media Queries */
+@media screen and (max-width: 43em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    font-size: 8rem;
+  }
+
+  .heading-secondary {
+    font-size: 5rem;
+  }
+
+  .programmer-heading {
+    font-size: 7rem;
+  }
+
+  .descriptions {
+    font-size: 1.6rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .navbar {
+    padding: 2rem;
+    background-color: #ced4da;
+    font-weight: 500;
+    z-index: 2;
+    opacity: calc(0.8);
+  }
+
+  .heading-resume {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (min-width: 44em) {
+  .navbar {
+    width: 100vw;
+    position: fixed;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .resume-container {
+    display: flex;
+    justify-content: left;
+    width: 60rem;
+  }
+}

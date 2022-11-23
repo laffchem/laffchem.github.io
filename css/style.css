@@ -325,7 +325,7 @@
 /* Resume Section */
 
 .heading-resume {
-  font-size: 6rem;
+  font-size: 8rem;
   padding-top: 12rem;
   color: #838f99;
 }
@@ -358,44 +358,6 @@
   text-decoration: underline;
 }
 
-/* Media Queries */
-@media screen and (max-width: 700px) {
-  .projects {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .logo {
-    width: 42%;
-  }
-
-  .navbar {
-    padding: 2rem;
-    background-color: #ced4da;
-    font-weight: 500;
-    z-index: 2;
-    opacity: calc(0.8);
-  }
-}
-
-@media screen and (min-width: 701px) {
-  .navbar {
-    width: 100vw;
-    position: fixed;
-  }
-
-  .logo {
-    width: 25%;
-  }
-
-  .resume-container {
-    display: flex;
-    justify-content: left;
-    width: 60rem;
-  }
-}
-
 /* Text Styles */
 
 .font-bold {
@@ -405,4 +367,13 @@
 
 .font-italic {
   font-style: italic;
+}
+
+.heading-secondary::after {
+  content: '';
+  padding: 2rem;
+  border-bottom: 2px dashed #838f99;
+  display: flex;
+  max-width: 8rem;
+  margin: 0 auto;
 }
