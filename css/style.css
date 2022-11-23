@@ -41,6 +41,7 @@
 }
 
 .logo {
+  width: 25%;
   border: solid 2px #ced4da;
   box-shadow: 0 0 10px 3px rgba(206, 212, 218, 0.25);
   border-radius: 50%;
@@ -49,6 +50,7 @@
 /* Navbar */
 
 .navbar {
+  width: 100%;
   padding: 2rem;
   background-color: #ced4da;
   font-weight: 500;
@@ -331,6 +333,8 @@
 }
 
 .resume-container {
+  display: flex;
+  justify-content: left;
   max-width: 60rem;
   margin: 0 auto;
   padding-top: 6rem;

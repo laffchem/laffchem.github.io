@@ -111,12 +111,3 @@ body {
 .flex-col-gap {
   gap: 3rem;
 }
-
-/* Media Queries */
-
-@media screen and (max-width: 700px) {
-  body {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
